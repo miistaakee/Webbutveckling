@@ -1,0 +1,63 @@
+@font-face 
+{
+    font-family: rustFont;
+    src: url(Rust.ttf);
+}
+
+@font-face 
+{
+    font-family: BebasNeue;
+    src: url(BebasNeue.otf);
+}
+
+@font-face
+{
+    font-family: basicTitleFont;
+    src: url(basictitlefont.ttf);
+}
+
+@font-face
+{
+    font-family: roboto;
+    src: url(Roboto-Thin.ttf)
+}
+
+#Background
+{
+    background-image: url(https://middleofnowheregaming.files.wordpress.com/2014/11/2014-10-31_00018.jpg);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.menuButton
+{
+    color: black;
+    width: 200px;
+    height: 32px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 1px 3px rgba(34,62,66,.25);
+    display: inline-block;
+    font-family: "BebasNeue";
+    font-size: 28px;
+}
+
+.menu
+{
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.7) 0%,rgba(230, 255, 255, 0.7) 100%);
+	border-radius: 10px;
+    width: auto;
+	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+    color: #fff;
+    font-size: 28px;
+    letter-spacing: 1px;
+    padding: 16px 16px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+}
